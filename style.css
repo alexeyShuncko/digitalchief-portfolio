@@ -1,0 +1,56 @@
+:root {
+    --clrMain: #FFA501;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.header {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: center no-repeat url('./images/Background.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    min-height: 100vh;
+    border: 1px solid #C4C4C4;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header_menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.header_name {
+    position: relative;
+    margin-top: 206px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.circle {
+    position: absolute;
+    top: -7px;
+    left: -10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--clrMain);
+    z-index: -1;
+}
